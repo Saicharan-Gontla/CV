@@ -2,6 +2,17 @@
     <head>
         <title> Saicharan Personal Site</title>
         <meta charset="utf-8">
+        
+
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Local css -->
         <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="./Images/Letter-s.png">
     </head>
@@ -43,27 +54,48 @@
             <div class="skills">
               <h2>My Skills.</h2>
               <div class="skill-row">
-                <table class="table-1">
-                    <tr >
-                        <td width=30%><img class="coding img-back" src="./Images/Coding.png" alt="coding-img"> </td>
-                        <td width=70%>
-                            <h3>Programming</h3>
-                            <p class="table-p"> I started learning to code when I was 17 years old. I am pretty comfortable in C, C++, Python and Java. I have gained some experience in Competitive Programming as well. </p>                        
-                        </td>
-                    </tr>
-                </table>
-
-                <table class='table-1'>
-                    <tr >
-                        <td width=70%>
-                            <h3>Data Science </h3>
-                            <p class="table-p"> I did some courses in the area of Machine Learning and Deep Learning. I got handful of experience by doing some Projects and an Internship in these Areas. </p>                        
-                        </td>
-                        <td width=30%><img class="coding img-back" src="./Images/Machine_learning.png" alt="coding-img"> </td>
-                        
-                    </tr>
+                <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+                    <ol class="carousel-indicators" >
+                        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="1" class=""></li>
+                        <!-- <li data-target="#testimonial-carousel" data-slide-to="2" class=""></li> -->
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <table class="table-1">
+                            <tr >
+                                <td width=30%><img class="coding img-back" src="./Images/Coding.png" alt="coding-img"> </td>
+                                <td width=70%>
+                                    <h3>Programming </h3>
+                                    <p class="table-p"> I started learning to code when I was 17 years old. I am pretty comfortable in C, C++, Python and Java. I have gained some experience in Competitive Programming as well. </p>                        
+                                </td>
+                            </tr>
+                        </table>
+                      </div>
+                      <div class="carousel-item">
+                        <table class="table-1">
+                            <tr >
+                                <td width=30%><img class="coding img-back" src="./Images/Machine_learning.png" alt="coding-img"> </td>
+                                <td width=70%>
+                                    <h3>Data Science </h3>
+                                    <p class="table-p"> I did some courses in the area of Machine Learning and Deep Learning. I got handful of experience by doing some Projects and an Internship in the Areas of Machine Learning and Deep Learning.. </p>                        
+                                </td>
+                            </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #66bfbf;"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true" style="color: #66bfbf;"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                <div>
+                
                     
-                </table>
+                
                 </div>
 
               
@@ -73,7 +105,7 @@
               <h2>Get In Touch</h2>
               <h3 class="contact-me-text-heading"> If you love anime as much as I do</h3>
               <p class="contact-me-text">Love Anime as much as I do? Let's talk about how awesome they are! <br> We can code as well.</p>
-              <a class="btn" href="mailto:saicharaniitm@gmail.com">CONTACT ME</a>
+              <a class="button1" href="mailto:saicharaniitm@gmail.com">CONTACT ME</a>
             </div>
           </div>
 
